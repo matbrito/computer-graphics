@@ -15,18 +15,18 @@ void init(void) {
 
 void display() {
   glClear(GL_COLOR_BUFFER_BIT);
-  glLineWidth(12);
+  glLineWidth(20);
 
   glBegin(GL_LINES);
       glColor3f(1, 0, 0);
-      glVertex2f(-0.5, 0.7);
-      glVertex2f(0.5, 0.7);
+      glVertex2f(-0.525, 0.7);
+      glVertex2f(0.525, 0.7);
   glEnd();
 
   glBegin(GL_LINES);
       glColor3f(1, 0, 0);
-      glVertex2f(-0.5, -0.7);
-      glVertex2f(0.5, -0.7);
+      glVertex2f(-0.525, -0.7);
+      glVertex2f(0.525, -0.7);
   glEnd();
 
   glBegin(GL_LINES);
