@@ -13,6 +13,5 @@ g++ -o sample ./sample/sample.cpp -lglut -lGLU -lGL -lm
 
 ## Docker
 ```shell
-docker build -t gcc-opengl .
 docker run -it --rm -v $PWD:/app matheusbrib/gcc-opengl sample.cpp
 ```
